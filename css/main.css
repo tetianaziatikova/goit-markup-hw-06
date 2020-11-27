@@ -1058,18 +1058,18 @@ button {
 .contact-form-policy-label::before {
     content: "";
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 14px;
     border: 1px solid #212121;
     margin-right: 10px;
 }
 
 .modal-form-policy:checked + .contact-form-policy-label::before {
-    background-color: var(--accent-color);
-    background-image: url(../images/sprite-modal-blue.svg);
+    background-image: url(../images/modal-blue.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    border: 0.2px solid #FFFFFF;
 }
 
 .checkbox-link {

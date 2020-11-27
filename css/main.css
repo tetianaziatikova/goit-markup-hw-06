@@ -952,6 +952,7 @@ button {
     cursor: pointer;
 }
 
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -1003,6 +1004,10 @@ button {
     padding-left: 42px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: 0.4, 0, 0.2, 1;
 }
 
 .modal-form-input:focus {
@@ -1027,6 +1032,10 @@ button {
 
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: 0.4, 0, 0.2, 1;
 }
 
 .modal-form-message::placeholder {
